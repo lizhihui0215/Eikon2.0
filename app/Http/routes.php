@@ -21,5 +21,11 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('tool',function(){
+  return view ('tool');
+});
+
+
+
 
 // Route::resource('login','LoginController');
